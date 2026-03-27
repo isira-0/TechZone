@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+        <title>⚡TechZone - Best Teach Deals</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            ⚡Techzone
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart-icon">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animated-title">Welcome to Techzone</h1>
+            <p class="animated-subtitle">Your 1 destination for the latest tech gadjets</p>
+            <a href="produts" class="hero-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Why Choose<span class="highlight">⚡TechZone ??</span></h2>
+                <p>
+                    TechZone is Sri Lanka's most trusted tech store, bringing you
+                    the latest gadgets at unbeatable prices. We are commited to
+                    quality, affordability, and excelent cutomer service.
+                </p>
+
+                <ul class="features list">
+                    <li>Free Delivery on orders over Rs.10,000</li>
+                    <li>1-Year warranty on all products</li>
+                    <li>Easy 7-day return policy</li>
+                    <li>Installement payment Plans Available</li>
+                    <li>Authorized dealer for top brands</li>
+                    <li>24/7 Customer Service</li>
+                </ul>
+            </div>
+
+            <div class="about-image">
+                <img src="TechZone.png" alt="TechZone"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">Top Quality tech at the best prices</p>
+        
+        <div class="products-grid">
+
+            <div class="produt-card">
+                <img src="airpods.jpeg" alt="airpods">
+                <div class="product-info">
+                    <h3>Apple AirPods Pro 2</h3>
+                    <p>2Hz speaker . Bluetooth . Quality Sound Expirence</p>
+                    <span class="price">Rs. 15,800</span>
+                    <button class="add-to-cart" onclick="addToCart('Airpods Pro 2')">
+                        🛒 Add To Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="produt-card">
+                <img src="iphones.jpeg" alt="iphone">
+                <div class="product-info">
+                    <h3>Apple Iphone 16 Pro</h3>
+                    <p>6.7 Apple Display . 108MP Camera . 5G Network Expirence</p>
+                    <span class="price">Rs. 645,000</span>
+                    <button class="add-to-cart" onclick="addToCart('Iphone 16 Pro')">
+                        🛒 Add To Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="produt-card">
+                <img src="ipod.jpeg" alt="ipod">
+                <div class="product-info">
+                    <h3>Apple Ipod Air</h3>
+                    <p>8.10 Apple Display . 100MP Camera . 5G Network Expirence</p>
+                    <span class="price">Rs. 240,000</span>
+                    <button class="add-to-cart" onclick="addToCart('Ipod Air')">
+                        🛒 Add To Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="produt-card">
+                <img src="macmini.jpeg" alt="macmini">
+                <div class="product-info">
+                    <h3>Apple Mac Mini</h3>
+                    <p>16GB minimum unified memory . front facing USB C Port</p>
+                    <span class="price">Rs. 100,000</span>
+                    <button class="add-to-cart" onclick="addToCart('macmini')">
+                        🛒 Add To Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="produt-card">
+                <img src="macbook.jpeg" alt="macbook">
+                <div class="product-info">
+                    <h3>Macbook M4 Pro</h3>
+                    <p>14-core CPU . 20-core GPU . nano-texture display</p>
+                    <span class="price">Rs. 645,000</span>
+                    <button class="add-to-cart" onclick="addToCart('Macbook M4 Pro')">
+                        🛒 Add To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specs" class="specs">
+        <h2 class="section-title">Product Specification</h2>
+        <p class="section-subtitle">Compare Our Products side by side</p>
+
+        <div class="table-container">
+            <table>
+
+                <thread>
+                    <tr>
+                        <th>Product</th>
+                        <th>Proccessor</th>
+                        <th>Storage</th>
+                        <th>Battery</th>
+                        <th>Display</th>
+                        <th>Price (Rs .)</th>
+                    </tr>
+                </thread>
+
+                <tbody>
+                    <tr>
+                        <td>Apple Airpods Pro 2</td>
+                        <td>mac 2</td>
+                        <td>none</td>
+                        <td>30 hours</td>
+                        <td>none</td>
+                        <td>15,800</td>
+                    </tr>
+                    <tr>
+                        <td>Apple Iphone 16 Pro </td>
+                        <td>Snapdragon 8 Gen 2</td>
+                        <td>512 GB</td>
+                        <td>5000 mAh</td>
+                        <td>6.7 Apple Display</td>
+                        <td>645,000</td>
+                    </tr>
+                    <tr>
+                        <td>Apple Ipod air</td>
+                        <td>Snapdragon 8 Gen 2</td>
+                        <td>256 GB</td>
+                        <td>2500 mAh</td>
+                        <td>8.10 Apple Display</td>
+                        <td>240,000</td>
+                    </tr>
+                    <tr>
+                        <td>Apple Mac Mini</td>
+                        <td>none</td>
+                        <td>16GB</td>
+                        <td>7 days</td>
+                        <td>none</td>
+                        <td>100,000</td>
+                    </tr>
+                    <tr>
+                        <td>Macbook M4 Pro</td>
+                        <td>M4 Pro chip</td>
+                        <td>16-core GPU</td>
+                        <td>24 hours</td>
+                        <td>nano-texture display</td>
+                        <td>640,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    
+  <section id="contact" class="contact">
+    <h2 class="section-title" style="color:#ffffff;">Contact Us</h2>
+    <p class="section-subtitle" style="color:#aac4ff;">
+      We'd love to hear from you!
+    </p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span>📍</span>
+        <h3>Visit Us</h3>
+        <p>No. 45, Galle Road,<br/>Colombo 03, Sri Lanka</p>
+      </div>
+      <div class="contact-card">
+        <span>📞</span>
+        <h3>Call Us</h3>
+        <p>+94 11 234 5678<br/>Mon–Sat, 9AM–7PM</p>
+      </div>
+      <div class="contact-card">
+        <span>📧</span>
+        <h3>Email Us</h3>
+        <p>info@techzone.lk<br/>support@techzone.lk</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">⚡ TechZone</div>
+      <p class="footer-tagline">Your #1 Tech Store in Sri Lanka</p>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#specs">Specs</a>
+        <a href="#about">About</a>
+        
+        <a href="https://www.facebook.com" target="_blank">
+          📘 Facebook
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; 2025 TechZone. All rights reserved. | 
+        Designed for University of Moratuwa Web Dev Course
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
